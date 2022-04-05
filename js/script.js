@@ -42,7 +42,7 @@ myData2 = {
 };
 myData3 = {
     datasets:[{
-        data: [4,5,6],
+        data: [24,10],
         backgroundColor: [
                     'rgb(255, 99, 132)',
                     'rgb(54, 162, 235)',
@@ -50,9 +50,8 @@ myData3 = {
                 ]
     }],
     labels:[
-    "Kelas A1",
-    "Kelas A2",
-    "Kelas A3"
+    "Provinsi Sudah CSIRT",
+    "Provinsi Belum CSIRT"
     ],
     options:{}
 };
