@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-19T03:00:44.306Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="W0gcv8x9N0MyoKraXsVA" version="18.0.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-19T03:02:53.290Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="NXbsecK4bROeLD2btEkp" version="18.0.7" type="github">
   <diagram id="2AaTSGa9Z8BQQ-PvD9Bo" name="Page-1">
     <mxGraphModel dx="2062" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -40,6 +40,15 @@
         <mxCell id="jXdwk9JwkKEWe-Lg2wPp-28" value="Konfirmasi Delete Data" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;bpmnShapeType=call;" vertex="1" parent="jXdwk9JwkKEWe-Lg2wPp-2">
           <mxGeometry x="40" y="580" width="120" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="jXdwk9JwkKEWe-Lg2wPp-39" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Upload&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="jXdwk9JwkKEWe-Lg2wPp-2">
+          <mxGeometry x="230" y="280" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jXdwk9JwkKEWe-Lg2wPp-40" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Create&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="jXdwk9JwkKEWe-Lg2wPp-2">
+          <mxGeometry x="120" y="385" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jXdwk9JwkKEWe-Lg2wPp-41" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Delete&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="jXdwk9JwkKEWe-Lg2wPp-2">
+          <mxGeometry x="40" y="280" width="60" height="30" as="geometry" />
+        </mxCell>
         <mxCell id="jXdwk9JwkKEWe-Lg2wPp-4" value="Sistem" style="swimlane;startSize=20;" vertex="1" parent="jXdwk9JwkKEWe-Lg2wPp-1">
           <mxGeometry x="360" y="20" width="400" height="860" as="geometry" />
         </mxCell>
@@ -49,8 +58,14 @@
         <mxCell id="jXdwk9JwkKEWe-Lg2wPp-13" value="Cek Data Upload" style="shape=rect;html=1;rounded=1;whiteSpace=wrap;align=center;" vertex="1" parent="jXdwk9JwkKEWe-Lg2wPp-4">
           <mxGeometry x="120" y="290" width="160" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="jXdwk9JwkKEWe-Lg2wPp-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="jXdwk9JwkKEWe-Lg2wPp-4" source="jXdwk9JwkKEWe-Lg2wPp-15" target="jXdwk9JwkKEWe-Lg2wPp-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="jXdwk9JwkKEWe-Lg2wPp-15" value="Simpan Data Upload" style="shape=rect;html=1;rounded=1;whiteSpace=wrap;align=center;" vertex="1" parent="jXdwk9JwkKEWe-Lg2wPp-4">
           <mxGeometry x="230" y="380" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jXdwk9JwkKEWe-Lg2wPp-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="jXdwk9JwkKEWe-Lg2wPp-4" source="jXdwk9JwkKEWe-Lg2wPp-16" target="jXdwk9JwkKEWe-Lg2wPp-35">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="jXdwk9JwkKEWe-Lg2wPp-16" value="Simpan Data Create" style="shape=rect;html=1;rounded=1;whiteSpace=wrap;align=center;" vertex="1" parent="jXdwk9JwkKEWe-Lg2wPp-4">
           <mxGeometry x="140" y="450" width="160" height="40" as="geometry" />
@@ -58,8 +73,14 @@
         <mxCell id="jXdwk9JwkKEWe-Lg2wPp-29" value="Cek Data Delete" style="shape=rect;html=1;rounded=1;whiteSpace=wrap;align=center;" vertex="1" parent="jXdwk9JwkKEWe-Lg2wPp-4">
           <mxGeometry x="35" y="530" width="160" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="jXdwk9JwkKEWe-Lg2wPp-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="jXdwk9JwkKEWe-Lg2wPp-4" source="jXdwk9JwkKEWe-Lg2wPp-32" target="jXdwk9JwkKEWe-Lg2wPp-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="jXdwk9JwkKEWe-Lg2wPp-32" value="Simpan Data Delete Setelah Konfirmasi" style="shape=rect;html=1;rounded=1;whiteSpace=wrap;align=center;" vertex="1" parent="jXdwk9JwkKEWe-Lg2wPp-4">
-          <mxGeometry x="10" y="630" width="210" height="40" as="geometry" />
+          <mxGeometry x="20" y="630" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jXdwk9JwkKEWe-Lg2wPp-35" value="" style="html=1;shape=mxgraph.sysml.actFinal;strokeWidth=2;verticalLabelPosition=bottom;verticalAlignment=top;" vertex="1" parent="jXdwk9JwkKEWe-Lg2wPp-4">
+          <mxGeometry x="200" y="780" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="jXdwk9JwkKEWe-Lg2wPp-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="jXdwk9JwkKEWe-Lg2wPp-1" source="jXdwk9JwkKEWe-Lg2wPp-12" target="jXdwk9JwkKEWe-Lg2wPp-13">
           <mxGeometry relative="1" as="geometry" />
@@ -88,6 +109,9 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="jXdwk9JwkKEWe-Lg2wPp-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="jXdwk9JwkKEWe-Lg2wPp-1" source="jXdwk9JwkKEWe-Lg2wPp-29" target="jXdwk9JwkKEWe-Lg2wPp-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jXdwk9JwkKEWe-Lg2wPp-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="jXdwk9JwkKEWe-Lg2wPp-1" source="jXdwk9JwkKEWe-Lg2wPp-28" target="jXdwk9JwkKEWe-Lg2wPp-32">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
