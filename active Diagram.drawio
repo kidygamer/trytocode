@@ -1,13 +1,13 @@
-<mxfile host="app.diagrams.net" modified="2022-05-19T03:02:53.290Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="NXbsecK4bROeLD2btEkp" version="18.0.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-19T03:04:01.669Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="HLX6EuATAW0BxiLGpj0C" version="18.0.7" type="github">
   <diagram id="2AaTSGa9Z8BQQ-PvD9Bo" name="Page-1">
     <mxGraphModel dx="2062" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="jXdwk9JwkKEWe-Lg2wPp-1" value="CSIRT Activity " style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;" vertex="1" parent="1">
+        <mxCell id="jXdwk9JwkKEWe-Lg2wPp-1" value="CSIRT Activity " style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="40" y="40" width="760" height="880" as="geometry" />
         </mxCell>
-        <mxCell id="jXdwk9JwkKEWe-Lg2wPp-2" value="User" style="swimlane;startSize=20;" vertex="1" parent="jXdwk9JwkKEWe-Lg2wPp-1">
+        <mxCell id="jXdwk9JwkKEWe-Lg2wPp-2" value="User" style="swimlane;startSize=20;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="jXdwk9JwkKEWe-Lg2wPp-1">
           <mxGeometry y="20" width="360" height="860" as="geometry" />
         </mxCell>
         <mxCell id="jXdwk9JwkKEWe-Lg2wPp-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="jXdwk9JwkKEWe-Lg2wPp-2" source="jXdwk9JwkKEWe-Lg2wPp-5" target="jXdwk9JwkKEWe-Lg2wPp-6">
@@ -49,7 +49,7 @@
         <mxCell id="jXdwk9JwkKEWe-Lg2wPp-41" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Delete&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="jXdwk9JwkKEWe-Lg2wPp-2">
           <mxGeometry x="40" y="280" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="jXdwk9JwkKEWe-Lg2wPp-4" value="Sistem" style="swimlane;startSize=20;" vertex="1" parent="jXdwk9JwkKEWe-Lg2wPp-1">
+        <mxCell id="jXdwk9JwkKEWe-Lg2wPp-4" value="Sistem" style="swimlane;startSize=20;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="jXdwk9JwkKEWe-Lg2wPp-1">
           <mxGeometry x="360" y="20" width="400" height="860" as="geometry" />
         </mxCell>
         <mxCell id="jXdwk9JwkKEWe-Lg2wPp-10" value="Menampilkan Menu CSIRT" style="shape=rect;html=1;rounded=1;whiteSpace=wrap;align=center;" vertex="1" parent="jXdwk9JwkKEWe-Lg2wPp-4">
